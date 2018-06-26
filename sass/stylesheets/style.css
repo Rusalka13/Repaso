@@ -1,0 +1,87 @@
+/* line 8, ../sass/style.scss */
+.circulo {
+  font-family: Roboto;
+  font-size: 12;
+}
+
+/* line 13, ../sass/style.scss */
+.star {
+  font-family: Montserrat;
+  font-size: 30;
+  background-color: #000000;
+}
+
+/* line 19, ../sass/style.scss */
+.cuadrado {
+  font-family: Raleway;
+  font-size: 20;
+}
+
+/* line 28, ../sass/style.scss */
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #2FDCB7;
+  display: inline-flex;
+  margin-top: 200px;
+  margin-left: 350px;
+}
+
+/* line 41, ../sass/style.scss */
+.cicle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(#A51802, #000000);
+  display: inline-flex;
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+/* line 55, ../sass/style.scss */
+#star-five {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: #F7F703;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #F7F703;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+  display: inline-flex;
+  margin-top: 150px;
+  margin-left: 15px;
+}
+
+/* line 70, ../sass/style.scss */
+#star-five:before {
+  border-bottom: 80px solid #F7F703;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+
+/* line 84, ../sass/style.scss */
+#star-five:after {
+  position: absolute;
+  display: block;
+  color: #7CF070;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #7CF070;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
